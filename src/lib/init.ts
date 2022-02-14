@@ -18,6 +18,8 @@ const defaultOptions: InitOptions = {
   debug: false,
 };
 
+// test
+
 /**
  * The method that starts it all
  *
@@ -25,7 +27,7 @@ const defaultOptions: InitOptions = {
  * @type Params The installation parameters and instance parameters provided from Dynamic Content
  * @param options The configuration object to change the behaviour of the extension
  *
- * @return Returns a promise that will resolve with a new [[SDK]] instance
+ * @return Returns a promise that will resolve with a new [[SDK]] instance         test
  *
  * ```typescript
  * import { init } from 'dc-extensions-sdk';

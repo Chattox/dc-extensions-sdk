@@ -40,4 +40,4 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           branch: gh-pages
-          folder: ./docs
+          folder: docs
