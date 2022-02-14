@@ -37,6 +37,7 @@ jobs:
       #   if: ${{ steps.release.outputs.release_created }}
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
+        if: ${{ steps.release.outputs.release_created }}
         with:
           branch: gh-pages
           folder: ./docs
