@@ -12,6 +12,8 @@ An SDK that enables the creation of Extensions for Dynamic Content. Extensions a
 
 # Installation
 
+hello world
+
 Using npm:
 
 ```bash
